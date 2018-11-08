@@ -6,7 +6,7 @@ while(op != 1000):##laço para retornar ao menu sempre que uma opção válida �
     def ssh_check(ipAdress, ssh_username, ssh_password): ##função de conexão com os parâmetros necessários, advindos da entrada do usuário após o menu
       
         result = ""
-        print("Connecting via SSH host IP {0}.".format(ipAdress))
+        print("Conectando via SSH host IP {0}.".format(ipAdress))
             
         ssh = paramiko.SSHClient()##cria representação de uma sessão com um servidor SSH
        
