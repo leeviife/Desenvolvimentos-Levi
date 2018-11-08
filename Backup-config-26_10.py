@@ -1,7 +1,7 @@
 import os, paramiko, socket, pandas, time,datetime ##importações necessárias, os frameworks devem ser instalados antes da execução.
 
 op = 1;
-
+##teste de codeanywhare
 while(op != 1000):##laço para retornar ao menu sempre que uma opção válida é executada, e sair com a entrada 1000
     def ssh_check(ipAdress, ssh_username, ssh_password): ##função de conexão com os parâmetros necessários, advindos da entrada do usuário após o menu
       
